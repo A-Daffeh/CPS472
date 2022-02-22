@@ -1,3 +1,1 @@
-# CPS472_Assignment1
-
-Basic Structure for upcoming lab exercises in CPS472
+# Initial Setup of Assignment. As well as the structural built up using html and styling the content
