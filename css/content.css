@@ -1,6 +1,6 @@
 .main_nav {
     list-style-type: none;
-    background-color: #333;
+    background-color: #aaa;
     overflow: hidden;
 }
 
@@ -13,11 +13,57 @@
     font-size: 20px;
 }
 
-.main_nav li a:hover {
+.main_nav li > a:hover {
     background-color: #f3f3f3;
     color: black;
 }
 
+.main_nav li a:active {
+    background-color: #f3f3f3;
+    color: #000;
+}
+
+.inner_content {
+    padding: 30px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.inner_content h1,
+.inner_content h2 {
+    color: lightblue;
+    margin: 20px 0;
+}
+
+.inner_content p::first-letter {
+    font-size: 27px;
+}
+
+.inner_content li,
+.inner_content dl {
+    margin-left: 50px;
+}
+
+.inner_content a {
+    color: red;
+    text-decoration: none;
+}
+
+.inner_content dt {
+   color: yellow;
+}
+
+.inner_content dd {
+    text-indent: 40px;
+}
+
+.moods img {
+    width: 300px;
+    height: 300px;
+}
 
 
   
