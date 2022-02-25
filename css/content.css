@@ -65,5 +65,18 @@
     height: 300px;
 }
 
+.favorite_movies ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.favorite_movies ol > li {
+    flex: 0 0 auto;
+}
+
+.advance_effect:hover {
+    transform: scaleX(-1);
+}
+
 
   
